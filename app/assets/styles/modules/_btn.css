@@ -1,0 +1,36 @@
+.btn {
+    border: 1px solid rgba($mainGray, .4);
+    background-color: #fff;
+    padding: .75em 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 .25em;
+    border-radius: .25em;
+    cursor: pointer;
+
+    .login-icon {
+        max-width: 18px;
+        height: 18px;
+        padding-right: .75em;
+    }
+
+    a {
+        color: $darkGray;
+    }
+
+    &--blue {
+        background: $lightBlue;
+        box-shadow: 0 0 30px rgba($mainBlue, .25);
+
+        a{
+            color: #fff;
+        }
+    }
+
+    &--no-bg {
+        background-color: unset;
+        width: 100px;
+        border: 1px solid rgba($mainBlue, .4);   
+    }
+}

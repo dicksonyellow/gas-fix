@@ -1,0 +1,15 @@
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1em;
+
+    @mixin atMedium {
+        padding: 0 2em;
+    }
+    @mixin atLarge {
+        padding: 0 4em;
+    }
+    @mixin atExLarge {
+        padding: 0 6em;
+    }
+}
