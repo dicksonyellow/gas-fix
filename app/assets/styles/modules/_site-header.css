@@ -1,11 +1,8 @@
 .site-header {
+    max-width: 1920px;
+    margin: 0 auto;
     display: block;
     padding: .25rem 0;
-
-    @mixin atExxLarge {
-        background-color: rgba(#0C12F5, .05);
-    }
-    
 
     &__logo {
         max-width: 100px;
@@ -21,7 +18,7 @@
             position: absolute;
             background: rgba($mainBlue, .8);
             width: 100%;
-            top: 9.5vh;
+            top: 4em;
             right: 0;
             z-index: 10;
         }

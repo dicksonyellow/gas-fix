@@ -1,0 +1,33 @@
+.card {
+    width: 100%;
+    margin: 0 auto;
+    align-self: stretch;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.214);
+
+    &__text {
+        margin: 2em;
+
+        h4, h3, p {
+            margin-bottom: .75em;
+        }
+    }
+
+    img {
+        display: block;
+    }
+
+    @mixin atSmall {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    @mixin atMedium {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    @mixin atLarge {
+        width: 100%;
+    }
+}

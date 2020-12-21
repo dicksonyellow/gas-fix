@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-gap: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    @mixin atMedium {
+        grid-template-columns: 1fr;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+    @mixin atLarge {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

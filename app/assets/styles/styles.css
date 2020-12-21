@@ -6,4 +6,8 @@
 @import 'modules/_hero';
 @import 'modules/_wrapper';
 @import 'modules/_row';
-@import 'modules/_btn'
+@import 'modules/_btn';
+@import 'modules/_user-stories';
+@import 'modules/_headline-and-icon';
+@import 'modules/_card';
+@import 'modules/_grid'

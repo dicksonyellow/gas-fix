@@ -16,15 +16,34 @@ h1 {
     }
 }
 
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: .1rem;
+}
+
 h3 {
     font-family: 'Roboto Condensed', sans-serif;
     color: $mainBlue;
     letter-spacing: .2rem;
+
+    @mixin atLarge {
+        font-size: 1.5rem;
+    }
+
+    @mixin atExLarge {
+        font-size: 2rem;
+    }
 }
 
-p {
+p, h4 {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
+    color: $mainGray;
+    
+    @mixin atExLarge {
+        font-size: 1.25rem;
+    }
+
 }
 
 a {
@@ -32,6 +51,7 @@ a {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     text-decoration: none;
+    
 }
 
 img {

@@ -1,10 +1,30 @@
 .hero {
-    padding: 2.5em;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 1em;
     background-color: rgba(#0C12F5, .05);
+    position: relative;
 
     @mixin atLarge {
         background-color: unset;
         padding: 0;
+    }
+
+    &__bg {
+        display: none;
+        width: 100%;
+        height: 120%;
+        background-color: rgba(#0C12F5, .05);
+        clip-path: inset(0 0 0 50%);
+        top: -20%;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+
+        @mixin atLarge {
+            display: unset;
+        }
+
     }
 
     &__content {
@@ -16,7 +36,6 @@
 
         @mixin atLarge {
             text-align: left;
-            padding-bottom: 10em;
         }
     }
 
@@ -32,31 +51,22 @@
 
     &__headline {
         width: 100%;
-        position: relative;
-        padding-left: 2.5em;
-
-        .background {
-            display: none;
-            position: absolute;
-            top: -10em;
-            z-index: -10;
-            width: 120%;
-
-            @mixin atLarge {
-                display: unset;
-                right: -4em;
-            }
-            @mixin atExLarge {
-                right: -6em;
-            }
-            @mixin atExxLarge {
-                display: none;
-            }
+        
+        @mixin atLarge {
+            padding-left: 2.5em;
         }
 
         h1 {
-            padding: 0 1.5em;
+            padding: 0 .5em;
 
+            @mixin atSmall {
+                padding: 0 1.5em;
+            }
+
+            @mixin atMedium {
+                padding: 0 3em;
+            }
+            
             @mixin atLarge {
                 padding: unset;
             }
@@ -71,17 +81,29 @@
         }
 
         p{
-            padding: 0 4.5em 2.5em;
-            color: $mainGray;
+            padding: 0 2em;
+            margin-bottom: 2em;
 
+            @mixin atSmall {
+                padding: 0 6em;
+            }
+
+            @mixin atMedium {
+                padding: 0 12em;
+            }
+            
             @mixin atLarge {
-                margin-top: -.5rem;
-                padding: 0 0 2em;
+                padding: unset;
             }
         }
 
         .btn--no-bg {
             margin: 0 auto;
+            width: 120px;
+
+            a {
+                margin: 0 auto;
+            }
 
             @mixin atLarge {
                 margin: unset;

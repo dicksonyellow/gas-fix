@@ -1,0 +1,10 @@
+.headline-and-icon {
+
+    img {
+        width: 40%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+}
