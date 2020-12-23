@@ -1,34 +1,34 @@
 .row {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  &--header {
+    flex-direction: row;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  &--flex-row {
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+    @mixin atLarge {
+      flex-direction: row;
+      padding-top: 6em;
+      padding-bottom: 6em;
+    }
+  }
+
+  &--flex-column {
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
 
-    &--header {
-        flex-direction: row;
-        padding-top: 1em;
-        padding-bottom: 1em;
+    @mixin atLarge {
+      padding-top: 6em;
+      padding-bottom: 6em;
     }
-
-    &--flex-row {
-        padding-top: 4em;
-        padding-bottom: 4em;
-
-        @mixin atLarge {
-            flex-direction: row;
-            padding-top: 6em;
-            padding-bottom: 6em;
-        }
-    }
-
-    &--flex-column {
-        flex-direction: column;
-        padding-top: 4em;
-        padding-bottom: 4em;
-
-        @mixin atLarge {
-            padding-top: 6em;
-            padding-bottom: 6em;
-        }
-    }
+  }
 }
