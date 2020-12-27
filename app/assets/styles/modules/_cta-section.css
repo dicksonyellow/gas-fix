@@ -1,0 +1,62 @@
+.cta-section {
+  max-width: 1920px;
+  background-color: $lightBlue;
+  margin: 0 auto;
+  text-align: center;
+
+  &__content {
+    width: 70%;
+
+    h2 {
+      color: #fff;
+
+      span {
+        font-weight: 300;
+      }
+    }
+
+    p {
+      color: #ffffff;
+      font-weight: 300;
+      padding: 1.25em 0;
+    }
+
+    @mixin atMedium {
+      width: 60%;
+    }
+  }
+
+  &__cta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: auto;
+
+    input {
+      padding: 0.75em 1.5em;
+      border: 0;
+      background-color: rgba($mainBlue, 0.5);
+    }
+
+    ::placeholder {
+      color: #c1c1c1;
+      font-family: "Roboto", sans-serif;
+    }
+
+    button {
+      align-self: center;
+      margin-top: 0.5em;
+
+      @mixin atMedium {
+        margin-top: unset;
+        margin-left: 0.5em;
+      }
+    }
+
+    @mixin atMedium {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

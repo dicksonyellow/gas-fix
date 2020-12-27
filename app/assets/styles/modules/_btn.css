@@ -1,36 +1,44 @@
 .btn {
-    border: 1px solid rgba($mainGray, .4);
-    background-color: #fff;
-    padding: .75em 1.5em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 .25em;
-    border-radius: .25em;
-    cursor: pointer;
+  border: 1px solid rgba($mainGray, 0.4);
+  background-color: #fff;
+  padding: 0.75em 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0.25em;
+  border-radius: 0.25em;
+  cursor: pointer;
 
-    .btn-icon {
-        max-width: 18px;
-        height: 18px;
-        padding-right: .75em;
-    }
+  .btn-icon {
+    max-width: 18px;
+    height: 18px;
+    padding-right: 0.75em;
+  }
+
+  a {
+    color: $darkGray;
+  }
+
+  &--blue {
+    background: $lightBlue;
+    box-shadow: 0 0 30px rgba($mainBlue, 0.25);
 
     a {
-        color: $darkGray;
+      color: #fff;
     }
+  }
 
-    &--blue {
-        background: $lightBlue;
-        box-shadow: 0 0 30px rgba($mainBlue, .25);
+  &--no-bg {
+    background-color: unset;
+    width: 100px;
+    border: 1px solid rgba($mainBlue, 0.4);
+  }
 
-        a{
-            color: #fff;
-        }
-    }
-
-    &--no-bg {
-        background-color: unset;
-        width: 100px;
-        border: 1px solid rgba($mainBlue, .4);   
-    }
+  &--form-btn {
+    background-color: #fff;
+    color: $lightBlue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    border: 0;
+  }
 }

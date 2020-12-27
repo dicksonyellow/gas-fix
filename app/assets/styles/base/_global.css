@@ -1,61 +1,61 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 500;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 500;
 
-    @mixin atMedium {
-        font-size: 3rem;
-    }
+  @mixin atMedium {
+    font-size: 3rem;
+  }
 
-    @mixin atExLarge {
-        font-size: 4rem;
-    }
+  @mixin atExLarge {
+    font-size: 4rem;
+  }
 }
 
 h2 {
-    font-family: 'Roboto Condensed', sans-serif;
-    letter-spacing: .1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
 }
 
 h3 {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: $mainBlue;
-    letter-spacing: .2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  color: $mainBlue;
+  letter-spacing: 0.2rem;
 
-    @mixin atLarge {
-        font-size: 1.5rem;
-    }
-
-    @mixin atExLarge {
-        font-size: 2rem;
-    }
+  @mixin atLarge {
+    font-size: 1.5rem;
+  }
 }
 
-p, h4 {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5em;
-    color: $mainGray;
-    
-    @mixin atExLarge {
-        font-size: 1.25rem;
-    }
+p,
+h4 {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+  color: $mainGray;
 
+  @mixin atExLarge {
+    font-size: 1.25rem;
+  }
 }
 
 a {
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+i {
+  padding: 0 0.5em;
+  color: $mainGray;
 }
 
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-
