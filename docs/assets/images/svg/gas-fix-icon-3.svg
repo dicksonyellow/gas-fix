@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5.82" height="5.373" viewBox="0 0 5.82 5.373">
+  <g id="gas-fix-icon" transform="translate(0 0)">
+    <path id="Icon_ionic-md-home" data-name="Icon ionic-md-home" d="M5.614,9.873H8.322V7.186H9.2L6.285,4.5,3.375,7.186h.873V9.873Z" transform="translate(-3.375 -4.5)" fill="#111"/>
+    <g id="Group_1047" data-name="Group 1047" transform="translate(1.642 1.68)">
+      <g id="Group_33" data-name="Group 33" transform="translate(0 0)">
+        <path id="Path_16" data-name="Path 16" d="M213.856,274.75c-.61-.7-.874-.905-.951-1.223a.176.176,0,0,1-.036,0,.168.168,0,0,1-.033,0,2.281,2.281,0,0,0-.036.951.15.15,0,0,1-.008.068,1.549,1.549,0,0,0,.3.4,1.481,1.481,0,0,1,.254,1.572S214.711,275.726,213.856,274.75Z" transform="translate(-211.562 -272.824)" fill="#fff"/>
+        <path id="Path_17" data-name="Path 17" d="M148.959,237.837c.789-1,1.025-1.149,1.047-1.7a1.586,1.586,0,0,1-.28,1.892,1.9,1.9,0,0,0-.32,1.8S148.054,238.983,148.959,237.837Z" transform="translate(-148.647 -236.136)" fill="#fff"/>
+        <path id="Path_18" data-name="Path 18" d="M197.754,381.021c-.114-.24-.283-.412-.284-.516,0,.1-.17.277-.284.516a.407.407,0,0,0,.036.462h.5A.407.407,0,0,0,197.754,381.021Z" transform="translate(-196.222 -377.791)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

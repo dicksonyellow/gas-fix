@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="711.999" height="744" viewBox="0 0 711.999 744">
+  <g id="hero-background" transform="translate(-568.001)">
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M148,4344H-304a10.011,10.011,0,0,1-10-10V4025a10.011,10.011,0,0,1,10-10h14v305H158v14A10.011,10.011,0,0,1,148,4344Z" transform="translate(882 -3600)" fill="rgba(0,142,250,0.2)"/>
+    <path id="hero-background-2" data-name="hero-background" d="M0,0H704V736H0Z" transform="translate(576)" fill="rgba(12,18,245,0.05)"/>
+  </g>
+</svg>

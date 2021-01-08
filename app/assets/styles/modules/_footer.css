@@ -8,6 +8,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 2em;
 
     @mixin atMedium {
       flex-direction: row;
@@ -60,9 +61,10 @@ footer {
 
   .footer-logo {
     width: 90%;
-    padding-top: 4em;
+    padding-top: 2em;
     display: flex;
     flex-direction: column;
+    border-top: 1px solid $mainGray;
 
     @mixin atMedium {
       flex-direction: row;

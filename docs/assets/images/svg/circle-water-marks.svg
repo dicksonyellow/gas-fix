@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="191.569" height="218.631" viewBox="0 0 191.569 218.631">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Surface" d="M22,44A21.982,21.982,0,0,1,0,22H4a18,18,0,0,0,34.586,7.007A17.995,17.995,0,0,0,22,4V0a22.006,22.006,0,0,1,8.564,42.271A21.864,21.864,0,0,1,22,44Z" fill="#0c12f5"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Surface-2" data-name="Surface" d="M48,96A47.96,47.96,0,0,1,0,48H8.726A39.283,39.283,0,0,0,84.186,63.286,39.261,39.261,0,0,0,48,8.726V0A48.013,48.013,0,0,1,66.683,92.228,47.7,47.7,0,0,1,48,96Z" fill="#008efa"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Surface-3" data-name="Surface" d="M27.5,55A27.477,27.477,0,0,1,0,27.5H5a22.506,22.506,0,0,0,43.232,8.758A22.494,22.494,0,0,0,27.5,5V0A27.507,27.507,0,0,1,38.2,52.839,27.33,27.33,0,0,1,27.5,55Z" fill="#0bbee3"/>
+    </clipPath>
+  </defs>
+  <g id="circle-water-marks" transform="translate(-372 -97.431)">
+    <g id="Progress_Indicators_2._Circular_Dark" data-name="Progress Indicators/2. Circular/Dark" transform="translate(372 176)">
+      <g id="Group_8" data-name="Group 8">
+        <path id="Surface-4" data-name="Surface" d="M22,44A21.982,21.982,0,0,1,0,22H4a18,18,0,0,0,34.586,7.007A17.995,17.995,0,0,0,22,4V0a22.006,22.006,0,0,1,8.564,42.271A21.864,21.864,0,0,1,22,44Z" fill="#0c12f5"/>
+      </g>
+    </g>
+    <g id="Progress_Indicators_2._Circular_Dark-2" data-name="Progress Indicators/2. Circular/Dark" transform="translate(563.569 180.569) rotate(150)">
+      <g id="Group_8-2" data-name="Group 8">
+        <path id="Surface-5" data-name="Surface" d="M48,96A47.96,47.96,0,0,1,0,48H8.726A39.283,39.283,0,0,0,84.186,63.286,39.261,39.261,0,0,0,48,8.726V0A48.013,48.013,0,0,1,66.683,92.228,47.7,47.7,0,0,1,48,96Z" fill="#008efa"/>
+      </g>
+    </g>
+    <g id="Progress_Indicators_2._Circular_Dark-3" data-name="Progress Indicators/2. Circular/Dark" transform="translate(424.931 316.062) rotate(-120)">
+      <g id="Group_8-3" data-name="Group 8" transform="translate(0 0)">
+        <path id="Surface-6" data-name="Surface" d="M27.5,55A27.477,27.477,0,0,1,0,27.5H5a22.506,22.506,0,0,0,43.232,8.758A22.494,22.494,0,0,0,27.5,5V0A27.507,27.507,0,0,1,38.2,52.839,27.33,27.33,0,0,1,27.5,55Z" fill="#0bbee3"/>
+      </g>
+    </g>
+  </g>
+</svg>

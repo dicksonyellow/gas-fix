@@ -31,7 +31,7 @@
   &--no-bg {
     background-color: unset;
     width: 100px;
-    border: 1px solid rgba($mainBlue, 0.4);
+    border: 1.5px solid rgba($mainBlue, 0.4);
   }
 
   &--form-btn {

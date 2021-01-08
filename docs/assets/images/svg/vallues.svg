@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="vallues" transform="translate(-213 -328)">
+    <g id="Path_273" data-name="Path 273" transform="translate(213 328)" fill="#fff">
+      <path d="M 62.5 62.5 L 50.66666030883789 62.5 L 1.5 62.5 L 1.5 1.5 L 62.5 1.5 L 62.5 62.5 Z" stroke="none"/>
+      <path d="M 3 3 L 3 61 L 50.66665649414062 61 L 61 61 L 61 3 L 3 3 M 0 0 L 64 0 L 64 64 L 50.66665649414062 64 L 0 64 L 0 0 Z" stroke="none" fill="#0bbee3"/>
+    </g>
+    <g id="Path_274" data-name="Path 274" transform="translate(213 328)" fill="#fff">
+      <path d="M 62.5 62.5 L 50.66666030883789 62.5 L 1.5 62.5 L 1.5 1.5 L 62.5 1.5 L 62.5 62.5 Z" stroke="none"/>
+      <path d="M 3 3 L 3 61 L 50.66665649414062 61 L 61 61 L 61 3 L 3 3 M 0 0 L 64 0 L 64 64 L 50.66665649414062 64 L 0 64 L 0 0 Z" stroke="none" fill="#0bbee3"/>
+    </g>
+    <path id="Icon_map-health" data-name="Icon map-health" d="M43.937,15.126a.9.9,0,0,0-.9-.9h-11.7a.9.9,0,0,1-.9-.9V1.62a.9.9,0,0,0-.9-.9H15.126a.9.9,0,0,0-.9.9v11.7a.9.9,0,0,1-.9.9H1.62a.9.9,0,0,0-.9.9V29.531a.9.9,0,0,0,.9.9h11.7a.9.9,0,0,1,.9.9v11.7a.9.9,0,0,0,.9.9H29.531a.9.9,0,0,0,.9-.9v-11.7a.9.9,0,0,1,.9-.9h11.7a.9.9,0,0,0,.9-.9Z" transform="translate(222.28 337.28)" fill="#0c12f5"/>
+    <path id="Icon_map-health-2" data-name="Icon map-health" d="M43.937,15.126a.9.9,0,0,0-.9-.9h-11.7a.9.9,0,0,1-.9-.9V1.62a.9.9,0,0,0-.9-.9H15.126a.9.9,0,0,0-.9.9v11.7a.9.9,0,0,1-.9.9H1.62a.9.9,0,0,0-.9.9V29.531a.9.9,0,0,0,.9.9h11.7a.9.9,0,0,1,.9.9v11.7a.9.9,0,0,0,.9.9H29.531a.9.9,0,0,0,.9-.9v-11.7a.9.9,0,0,1,.9-.9h11.7a.9.9,0,0,0,.9-.9Z" transform="translate(222.28 337.28)" fill="#0c12f5"/>
+  </g>
+</svg>

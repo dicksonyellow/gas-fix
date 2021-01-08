@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="232" viewBox="0 0 232 232">
+  <g id="square-water-mark" transform="translate(-72 -264)">
+    <rect id="Rectangle_1448" data-name="Rectangle 1448" width="112" height="112" transform="translate(192 384)" fill="rgba(12,18,245,0.05)"/>
+    <rect id="Rectangle_1449" data-name="Rectangle 1449" width="48" height="48" transform="translate(72 264)" fill="#e0e0e0"/>
+    <g id="Rectangle_1447" data-name="Rectangle 1447" transform="translate(120 312)" fill="#fff" stroke="#b7b7b7" stroke-width="1">
+      <rect width="176" height="176" stroke="none"/>
+      <rect x="0.5" y="0.5" width="175" height="175" fill="none"/>
+    </g>
+  </g>
+</svg>
